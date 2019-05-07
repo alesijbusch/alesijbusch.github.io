@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108.809" height="113.946">
+    <g fill="none" stroke="#0081c8" stroke-width="3">
+        <path stroke="none" d="M0 0h108.809v108.809H0z"/>
+        <path d="M1.5 1.5h105.809v105.809H1.5z"/>
+    </g>
+    <text transform="translate(43.1 90.946)" fill="#0081c8" font-size="92" font-family="Rubik-Regular, Rubik">
+        <tspan x="0" y="0">!</tspan>
+    </text>
+</svg>
