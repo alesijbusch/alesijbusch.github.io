@@ -5,5 +5,11 @@
 			Вторые европейские игры 2019
 		</a>
 	</li>
+	<li>
+		<a href="https://alesijbusch.github.io/smitler/">
+			Салон красоты Smitler
+		</a>
+	</li>
+
 </ul>
 
