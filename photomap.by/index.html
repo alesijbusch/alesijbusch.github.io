@@ -1,1 +1,159 @@
+<!DOCTYPE html>
 
+<html lang="ru">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Фотокарта Беларуси</title>
+		<meta name="description" content="">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!-- Template Basic Images Start -->
+		<meta property="og:image" content="path/to/image.jpg">
+		<link rel="icon" href="img/favicon/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+		<!-- Template Basic Images End -->
+		
+		<!-- Custom Browsers Color Start -->
+		<meta name="theme-color" content="#009432">
+		<!-- Custom Browsers Color End -->
+
+		<link rel="stylesheet" href="css/main.min.css">
+
+	</head>
+
+	<body>
+
+		<main class="home">
+			<header>
+				<div class="top_line">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-3 col-sm-3 col-5">
+								<div class="logo fl">
+									<a href="index.html">
+										<img src="img/svg/logo.svg" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-9 col-sm-9 col-7">
+								<nav class="navigation">
+									<ul id="menu-navigation" class="top_menu">
+										<li>
+											<a href="#">Главная</a>
+											<!-- <ul class="sub-menu">
+												<li class="menu-item">
+													<a href="#">
+														<span>Тестовая</span>
+													</a>
+												</li>
+											</ul> -->
+										</li>
+										<li>
+											<a href="list.html">Фотокарта Беларуси</a>
+										</li>
+										<li>
+											<a href="#">О нас</a>
+										</li>
+										<li>
+											<a href="#">Контакты</a>
+										</li>
+										<li>
+											<a href="#" class="btn_search"><span class="icon-search-light"></span></a>
+										</li>
+									</ul>
+									<div class="menu_mobile">
+										<a href="#" class="menu_search"><span class="icon-burger"></span></a>
+										<a href="#" class="btn_search"><span class="icon-search-light"></span></a>
+									</div>
+								</nav>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="search-popup main-row">
+					<div class="icon-close"></div>
+					<div class="centered-container">
+						<form role="search" method="get" class="searchform" action="#">
+							<button type="submit" class="searchsubmit" value="">
+								<span class="icon-search-light"></span>
+							</button>
+							<div>
+							<input type="text" value="" placeholder="Поиск по сайту..." name="s" class="input"></div>
+						</form>
+					</div>
+				</div>
+			</header>
+
+			
+			<div class="home_image" style="background-image: url(img/main-page-minsk.jpg);">
+
+				<div class="search-block-wrapper d-flex justify-content-center align-items-center">
+					<div class="search-block-container">
+						<div class="container">
+
+							<a class="popup-with-zoom-anim search-box" data-fancybox data-src="#modal" href="javascript:;">Выбрать город... 
+								<span class="burger icon-burger"></span>
+							</a>
+							<br>
+							<div id="modal" class="cities-selector" style="display: none;">
+								<input type="text" class="city-input" placeholder="Начните вводить город...">
+
+								<nav class="cities-scroll">
+									<ul class="cities-list">
+										<li data-name="Минск">
+											<a href="list.html" data-filter="Минск minsk vbycr">Минск</a>
+										</li>
+										<li data-name="Брест">
+											<a href="/brest/" data-filter="Брест brest ,htcn">Брест</a>
+										</li>
+										<li data-name="Гомель">
+											<a href="/gomel/" data-filter="Гомель gomel ujvtkm">Гомель</a>
+										</li>
+										<li data-name="Могилев">
+											<a href="/mogilev/" data-filter="Могилев mogilev vjubktd">Могилев</a>
+										</li>
+										<li data-name="Витебск">
+											<a href="/vitebsk/" data-filter="Витебск vitebsk dbnt,cr">Витебск</a>
+										</li>
+										<li data-name="Гродно">
+											<a href="/grodno/" data-filter="Гродно grodno uhjlyj">Гродно</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<a class="photo_add" href="add.html">Прислать фото своего города</a>
+							<nav class="popular hidden-xs">
+								<span>Популярные:</span>
+								<ul>
+									<li><a href="minsk.html">Минск</a></li>
+									<li><a href="/brest/">Брест</a></li>
+									<li><a href="/vitebsk/">Витебск</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="social_buttons">
+				<a href="#"><i class="icon-vk"></i> <span>Вконтакте</span></a>
+				<a href="#"><i class="icon-fb"></i> <span>Facebook</span></a>
+				<a href="#"><i class="icon-instagram"></i> <span>Instagram</span></a>
+				<a href="#"><i class="icon-tw"></i> <span>Twitter</span></a>
+			</div>
+		</main>	
+
+	<script src="js/scripts.min.js"></script>
+	<script src="js/common.js"></script>
+
+	</body>
+</html>
