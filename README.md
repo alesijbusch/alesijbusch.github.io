@@ -10,18 +10,15 @@
 			Салон красоты Smitler
 		</a>
 	</li>
-
 	<li>
 		<a href="https://alesijbusch.github.io/photomap.by/">
 			Фотокарта 2
 		</a>
 	</li>
-
 	<li>
 		<a href="https://alesijbusch.github.io/oneimg/">
 			Фотокарта 1
 		</a>
 	</li>
-
 </ul>
 
